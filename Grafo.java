@@ -141,7 +141,7 @@ public class Grafo <T>{ //tipo genérico pois n especificamos
       System.out.println("Sim");
     }
     else{
-      System.out.println("Nao");
+      System.out.println("No");
     }
     System.out.println(cont); //printa o numero de componentes
       for(Vertice<T> item: vertices){ //percorre todos os vertices
